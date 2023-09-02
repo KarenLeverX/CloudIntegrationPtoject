@@ -1,4 +1,4 @@
-COLUMN TABLE "Nasdaq.BasicDataStock" ( 
+COLUMN TABLE "Nasdaq.BasicDataStock" (
 		"StockName" NVARCHAR(10) NOT NULL,
 		"FullName" NVARCHAR(5000),
 		"Country" NVARCHAR(30),
