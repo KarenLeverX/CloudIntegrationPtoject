@@ -1,0 +1,8 @@
+TYPE "tech::logs" AS TABLE (
+		"ID" BIGINT,
+		"User" NVARCHAR(30),
+		"Action" NVARCHAR(5000),
+		"Errors" NVARCHAR(5000),
+		"Industry" NVARCHAR(30),
+		"Timestamp" TIMESTAMP
+     	 )

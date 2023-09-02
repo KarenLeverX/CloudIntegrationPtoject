@@ -1,0 +1,9 @@
+TYPE "yahooAPI:: news" AS TABLE (
+	"UID" NVARCHAR(50),
+	"Title" NVARCHAR(5000),
+	"Publisher" NVARCHAR(30),
+	"LINK" NVARCHAR(5000),
+	"PublishTime" NVARCHAR(30),
+	"Type" NVARCHAR(30),
+	"RelatedTickets" NVARCHAR(50)
+)
